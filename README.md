@@ -87,16 +87,5 @@ Proyecto IA
   </header>
   <section id="servicios">
     <h2>Servicios</h2>
-    <img src="https://via.placeholder.com/300x200" alt="Servicios tecnológicos" class="service-image">
-    <p>Ofrecemos una amplia gama de servicios tecnológicos para satisfacer las necesidades de tu negocio.</p>
-    <ul>
-      <li>Desarrollo de Software</li>
-      <li>Consultoría Tecnológica</li>
-      <li>Soporte Técnico</li>
-      <li>Soluciones en la Nube</li>
-    </ul>
-  </section>
-  <section id="nosotros">
-    <h2>Nosotros</h2>
-    <img src="https://via.placeholder.com/300x200" alt="Nosotros" class="service-image">
-    <p>Somos una empresa dedicada a proporcionar soluciones tecnológicas innovadoras y de alta
+    <img src="images/servicios.png" alt="Servicios tecnológicos" class="service-image">
+    <p>Ofrecemos una amplia gama de servicios tecnológicos para satisfacer las necesidades de tu negocio.</
