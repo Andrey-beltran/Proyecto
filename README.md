@@ -88,4 +88,40 @@ Proyecto IA
   <section id="servicios">
     <h2>Servicios</h2>
     <img src="images/servicios.png" alt="Servicios tecnológicos" class="service-image">
-    <p>Ofrecemos una amplia gama de servicios tecnológicos para satisfacer las necesidades de tu negocio.</
+    <p>Ofrecemos una amplia gama de servicios tecnológicos para satisfacer las necesidades de tu negocio.</p>
+    <ul>
+      <li>Desarrollo de Software</li>
+      <li>Consultoría Tecnológica</li>
+      <li>Soporte Técnico</li>
+      <li>Soluciones en la Nube</li>
+    </ul>
+  </section>
+  <section id="nosotros">
+    <h2>Nosotros</h2>
+    <img src="images/nosotros.png" alt="Nosotros" class="service-image">
+    <p>Somos una empresa dedicada a proporcionar soluciones tecnológicas innovadoras y de alta calidad.</p>
+  </section>
+  <section id="contacto">
+    <h2>Contacto</h2>
+    <img src="images/contacto.png" alt="Contacto" class="service-image">
+    <form id="contact-form">
+      <label for="nombre">Nombre:</label>
+      <input type="text" id="nombre" name="nombre" required>
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+      <label for="mensaje">Mensaje:</label>
+      <textarea id="mensaje" name="mensaje" required></textarea>
+      <button type="submit">Enviar</button>
+    </form>
+  </section>
+  <footer>
+    <p>&copy; 2025 Mi Empresa Tecnológica. Todos los derechos reservados.</p>
+  </footer>
+  <script>
+    document.getElementById('contact-form').addEventListener('submit', function(event) {
+      event.preventDefault();
+      alert('Mensaje enviado. ¡Gracias por contactarnos!');
+    });
+  </script>
+</body>
+</html>
